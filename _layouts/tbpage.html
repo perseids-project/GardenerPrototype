@@ -1,0 +1,80 @@
+---
+layout: tbpage
+---
+<html>
+<head>
+
+{% stylesheet CETEIcean.css %}
+{% stylesheet stylesheet.css %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+{% javascript arethusa.packages.min.js %}
+{% javascript arethusa.min.js  %} 
+{% javascript arethusa.widget.loader.js %} 
+<title>Treebank Publication Prototype</title>
+</head>
+
+
+<body>
+<div class="wrapper">
+    <header class="page-header">
+      <h1 class="title">Treebank Publication Prototype</h1>
+    <h1 class="page-title" itemprop="name headline">{{ page.title }}</h1>
+    <h1 class="page-editor"> {{ page.editor }} </h1>
+
+  </header>
+
+
+
+    <div id="container">
+      <p class="tagline">Testing out the self-publication workflow</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/TDBuck/Testpostpleaseignore/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/TDBuck/Testpostpleaseignore/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/TDBuck/Testpostpleaseignore" class="code">View Testpostpleaseignore on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+
+
+
+<div class="__artsa">
+  <div id="treebank_container">
+  </div>
+</div>
+{% raw %}
+<script type="text/javascript">
+
+$(document).ready(function() {
+  var deps = {
+    "css": {  
+      "arethusa":"/assets/css/arethusa.min.css",
+      "colorpicker":"/assets/css/colorpicker.css",
+      "font_awesome":"/assets/css/font-awesome.min.css",
+      "foundation":"/assets/css/foundation-icons.css"
+    },
+    "js":{
+      "arethusa":"/assets/javascripts/arethusa.min.js",
+       "packages":"/assets/javascripts/arethusa.packages.min.js"
+    }
+  }
+
+  window.i18npath = "assets/i18n/";
+  window.dagred3path = "vendor/dagre-d3.min.js";
+  loadArethusaWidget(
+    "treebank_container",
+    "assets/javascripts",
+    "assets/tbpub.json",
+    { doc: "perseus/lattb/4253/lattb.4253.1.tb.xml" },
+    deps
+  ); 
+});
+
+
+</script>
+{% endraw %}
+</body>
+
+</html>
