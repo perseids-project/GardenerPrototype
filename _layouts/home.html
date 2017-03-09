@@ -8,20 +8,31 @@ layout: default
   
   {{ content }}
 
-  <ul class="page-list">
+ <table class="page-list">
+            <thead>
+              <th>Author</th>
+              <th>work</th>
+              <th>editors</th>
+              <th>locus</th>
+              <th>link</th>
+            </thead>
+            <tbody>
     {% for page in site.pages %}
-      <li>
-        <span class="page-meta">{{ page.author }}</span>
-        <span class="page-meta">{{ page.work }}</span>
-        <span class="page-meta">{{ page.editor }}</span>
-        <span class="page-meta">{{ page.locus }}</span>
-        <span class="page-meta">{{ page.lang }}</span>
-        <h2>
+      <tr>
+        <td class="page-meta">{{ page.author }}</td>
+        <td class="page-meta">{{ page.work }}</td>
+        <td class="page-meta">{{ page.editor }}</td>
+        <td class="page-meta">{{ page.locus }}</td>
+        
+        <td>
           <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-        </h2>
-      </li>
+        </td>
+      </tr>
     {% endfor %}
-  </ul>
+    </tbody>
+    </table>
+
+  
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 

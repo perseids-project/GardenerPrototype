@@ -5,7 +5,7 @@ layout: tbpage
 <head>
 
 {% stylesheet CETEIcean.css %}
-{% stylesheet stylesheet.css %}
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 {% javascript arethusa.packages.min.js %}
@@ -44,8 +44,19 @@ layout: tbpage
   <div id="treebank_container">
   </div>
 </div>
-{% raw %}
+
 <script type="text/javascript">
+
+if ({{ page.lang }} = "Latin") {
+        var langgroup = 'lattb';
+    }
+    else if ({{ page.lang }}= "Greek") {
+        var langgroup = 'grctb';
+    }
+    else {
+        var langgroup = 'misctb';
+    };
+var base = "/perseus/"+langgroup+"/"+{{ page.folder }}+"/"+langgroup+"."+{{ page.folder }}+".1.tb.xml"
 
 $(document).ready(function() {
   var deps = {
@@ -67,14 +78,14 @@ $(document).ready(function() {
     "treebank_container",
     "assets/",
     "assets/tbpub.json",
-    { doc: "perseus/lattb/4253/lattb.4253.1.tb.xml" },
+    { doc: base },
     deps
   ); 
 });
 
 
 </script>
-{% endraw %}
+
 </body>
 
 </html>
