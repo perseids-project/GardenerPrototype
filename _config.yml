@@ -12,6 +12,9 @@ github_username:  jekyll
 syntax-highlighting: 
   enabled : true
   highlighter: rouge
+collections:
+  tbpages:
+    output: true
 
 markdown: kramdown
 theme: minima
