@@ -22,3 +22,16 @@ gems: [ jekyll-watch, jekyll-assets]
 exclude:
   - Gemfile
   - Gemfile.lock
+assets:
+  assets:
+    - "*.json"
+    - "*.js"
+    - "*.css"
+    - "*.png"
+    - "*.ttf"
+    - "*.svg"
+    - "*.eot"
+    - "*.otf"
+    - "*.woff"
+  sources:
+    - _assets/arethusa
