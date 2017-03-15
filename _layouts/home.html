@@ -4,36 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Pages</h1>
+  <h1 class="page-heading"></h1>
   
+  <p>
+  	Welcome to Gardner, the Personal Publication Platform available from Perseids. Create an manage your own online treebank collection, in a light wieght and easy way. Follow our instructions in the Documentation tab to get started, or click around the demo site to see how things work. 
+  </p>
   {{ content }}
-
- <table class="page-list">
-            <thead>
-              <th>Author</th>
-              <th>work</th>
-              <th>editors</th>
-              <th>locus</th>
-              <th>link</th>
-            </thead>
-            <tbody>
-    {% for page in site.tbpages %}
-      <tr>
-        <td class="page-meta">{{ page.author }}</td>
-        <td class="page-meta">{{ page.work }}</td>
-        <td class="page-meta">{{ page.editor }}</td>
-        <td class="page-meta">{{ page.locus }}</td>
-        
-        <td>
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-        </td>
-      </tr>
-    {% endfor %}
-
-    </tbody>
-    </table>
-
-  
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
