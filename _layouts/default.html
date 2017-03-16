@@ -6,15 +6,16 @@
   <body>
 
     {% include header.html %}
- 
+    
     <main class="page-content" aria-label="Content">
+    {% include download.html %}
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
 
-    {% include footer.html %}
-
+    
+{% include footer.html %}
   </body>
 
 </html>
