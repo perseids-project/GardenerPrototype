@@ -15,7 +15,7 @@ collections:
     permalink: :title.html
 
 markdown: kramdown
-theme: jekyll-theme-primer
+theme: jekyll-theme-leap-day
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
