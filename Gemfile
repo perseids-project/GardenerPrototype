@@ -3,7 +3,7 @@ ruby RUBY_VERSION
 
 
 gem "jekyll", "3.4.0"
-gem "jekyll-theme-primer", "~> 0.1.7"
+gem "jekyll-theme-leap-day", "~> 0.0.3"
 gem "wdm", "~> 0.1.0"
 
 

@@ -33,13 +33,14 @@ GEM
       pathutil (>= 0.8)
       rack (> 1, < 2)
       sprockets (~> 3.3, < 3.7)
-    jekyll-coffeescript (1.0.1)
+    jekyll-coffeescript (1.0.2)
       coffee-script (~> 2.2)
+      coffee-script-source (~> 1.11.1)
     jekyll-feed (0.9.1)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-theme-primer (0.1.7)
+    jekyll-theme-leap-day (0.0.3)
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
@@ -80,7 +81,7 @@ DEPENDENCIES
   jekyll-assets
   jekyll-coffeescript
   jekyll-feed (~> 0.6)
-  jekyll-theme-primer (~> 0.1.7)
+  jekyll-theme-leap-day (~> 0.0.3)
   sass
   tzinfo-data
   uglifier
