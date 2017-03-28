@@ -8,9 +8,9 @@ permalink: :title.html
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/arethusa.packages.min.js"></script>
-<script type="text/javascript" src="assets/arethusa.min.js"></script>
-<script type="text/javascript" src="assets/arethusa.widget.loader.js"></script>
+<script type="text/javascript" src="{{ "/assets/arethusa.packages.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/arethusa.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/arethusa.widget.loader.js" | relative_url }}"></script>
 <title>Treebank Publication Prototype</title>
 </head>
 
@@ -51,14 +51,14 @@ var base = "/perseus/"+langgroup+"/"+{{ page.folder }}+"/"+langgroup+"."+{{ page
 $(document).ready(function() {
   var deps = {
     "css": {  
-      "arethusa":"/assets/css/arethusa.min.css",
-      "colorpicker":"/assets/css/colorpicker.css",
-      "font_awesome":"/assets/css/font-awesome.min.css",
-      "foundation":"/assets/css/foundation-icons.css"
+      "arethusa":"{{ "/assets/css/arethusa.min.css" | relative_url }}",
+      "colorpicker":"{{ "/assets/css/colorpicker.css" | relative_url }}",
+      "font_awesome":"{{ "/assets/css/font-awesome.min.css" | relative_url }}",
+      "foundation":"{{ "/assets/css/foundation-icons.css" | relative_url }}"
     },
     "js":{
-      "arethusa":"/assets/javascripts/arethusa.min.js",
-       "packages":"/assets/javascripts/arethusa.packages.min.js"
+      "arethusa":"{{ "/assets/javascripts/arethusa.min.js" | relative_url }}",
+       "packages":"{{ "/assets/javascripts/arethusa.packages.min.js" | relative_url }}"
     }
   }
 

@@ -2,7 +2,7 @@
 title: Gardner Self Publication Platform
 email: Perseidsadmin@gmail.com
 description: The Gardner platform is built so that any Perseids user can host their own publications on their own blog or website, easily and quickly.
-baseurl: "/GardnerPrototype" 
+baseurl: "/GardnerPrototype"
 url: "https://tdbuck.github.io/GardnerPrototype" 
 twitter_username: PerseidsProject
 github_username:  TDBuck
