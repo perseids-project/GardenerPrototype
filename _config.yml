@@ -15,10 +15,11 @@ collections:
     permalink: :title.html
 
 markdown: kramdown
-theme: jekyll-theme-leap-day
+
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
+
 gems: [ jekyll-watch, jekyll-assets]
 exclude:
   - Gemfile
