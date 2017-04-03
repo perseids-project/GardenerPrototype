@@ -1,5 +1,5 @@
 ---
-layout: tbpage
+layout: default
 title:  "Welcome to Jekyll!"
 date:   2017-02-27 13:46:20 -0500
 categories: jekyll update

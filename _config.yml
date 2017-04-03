@@ -1,7 +1,7 @@
 
 title: Gardner Self Publication Platform
 email: Perseidsadmin@gmail.com
-description: The Gardner platform is built so that any Perseids user can host their own publications on their own blog or website, easily and quickly.
+description: Self-publication platform for Treebanks
 baseurl: "/GardnerPrototype"
 url: "https://tdbuck.github.io/GardnerPrototype" 
 twitter_username: PerseidsProject
@@ -15,12 +15,14 @@ collections:
     permalink: :title.html
 
 markdown: kramdown
-
+exclude: [docs]
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
-
+  - jekyll-theme-leap-day
+theme: "jekyll-theme-leap-day"
 gems: [ jekyll-watch, jekyll-assets]
+
 exclude:
   - Gemfile
   - Gemfile.lock

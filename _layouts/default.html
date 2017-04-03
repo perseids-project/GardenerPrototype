@@ -3,18 +3,28 @@ permalink: baseurl/:page.title
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="eng">
 
   {% include head.html %}
 
-  <body>
 
-    {% include header.html %}
-    
+  <body> 
+
+  {% include header.html %}
+  {% include download.html %}  
     <main class="page-content" aria-label="Content">
-    {% include download.html %}
+    
       <div class="wrapper">
+      <nav>
+        <ul>
+          {% for page in site.pages %}
+          <li class="tag-h1"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <section>
         {{ content }}
+        </section>
       </div>
     </main>
 
