@@ -13,9 +13,10 @@ collections:
   tbpages:
     output: true
     permalink: :title.html
-
+show_downloads: true
 markdown: kramdown
-exclude: [docs]
+
+destination: docs
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
