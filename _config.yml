@@ -2,7 +2,7 @@
 title: Gardner Self Publication Platform
 email: Perseidsadmin@gmail.com
 description: Self-publication platform for Treebanks
-baseurl: "/GardnerPrototype"
+baseurl: "/GardnerPrototype/"
 url: "https://tdbuck.github.io/GardnerPrototype" 
 twitter_username: PerseidsProject
 github_username:  TDBuck
