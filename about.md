@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 ---
@@ -23,6 +23,18 @@ With this, you should be able to host and display your own collection of treeban
 <li>d perfectWidth</li>
 </ul>
 
+Jekyll via Github pages only supports a few gem based themes. Or widget is only compatible with some of these. 
 
+<ul>
+<li>Leap-day</li>
+<li>Time-Machine</li>
+<li>Midnight</li>
+<li>Cayman</li>
+<li>Dinky</li>
+<li>Hacker</li>
+<li>Minimal</li>
+<li>Modernist</li>
+<li>Slate</li>
+</ul>
 
 Si hortum in bibliotheca habes, nihil deerit.

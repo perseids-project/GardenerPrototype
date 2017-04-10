@@ -1,78 +1,26 @@
 ---
 permalink: :title.html
+layout: default
 ---
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ "/assets/arethusa.packages.min.js" | relative_url }}"></script>
 <script type="text/javascript" src="{{ "/assets/arethusa.min.js" | relative_url }}"></script>
 <script type="text/javascript" src="{{ "/assets/arethusa.widget.loader.js" | relative_url }}"></script>
-<title>Treebank Publication Prototype</title>
-</head>
-
-
-<body> 
-{% include header.html %}
-{% include download.html %} 
-
-<div class="wrapper">
-<nav>
-        <ul>
-          <li class="tag-h1"><a href="{{ site.baseurl }}">Home</a></li>
-          {% for page in site.pages %}
-          {% if page.title %}
-          {% if page.layout != "home" %}
-          <li class="tag-h1"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-          {% for page in site.tbpages %}
-          <li class="tag-h2"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-<section>
-<h4>{{ page.title }}</h4>
-<h4>Work : {{ page.work }}</h4>
-<h4>Author : {{ page.author }}</h4>
-<h4>Editor : {{ page.editor }}</h4>
-<h4>Locus : {{ page.locus  }}</h4>
-<p>{{ content }}</p>
-
-</section>
-<div class="__artsa">
-  <div id="treebank_container">
-  </div>
-</div>
-
 <script type="text/javascript">
 
 if ({{ page.tblang }} = "Latin") {
-        var langgroup = 'lattb';
-    }
-    else if ({{ page.tblang }}= "Greek") {
-        var langgroup = 'grctb';
-    }
-    else {
-        var langgroup = 'misctb';
-    };
+  var langgroup = 'lattb';
+}
+else if ({{ page.tblang }}= "Greek") {
+  var langgroup = 'grctb';
+}
+else {
+  var langgroup = 'misctb';
+};
+
 var base = "/perseus/"+langgroup+"/"+{{ page.folder }}+"/"+langgroup+"."+{{ page.folder }}+".1.tb.xml"
 
 $(document).ready(function() {
@@ -85,7 +33,7 @@ $(document).ready(function() {
     },
     "js":{
       "arethusa":"{{ "/assets/javascripts/arethusa.min.js" | relative_url }}",
-       "packages":"{{ "/assets/javascripts/arethusa.packages.min.js" | relative_url }}"
+      "packages":"{{ "/assets/javascripts/arethusa.packages.min.js" | relative_url }}"
     }
   }
 
@@ -99,10 +47,29 @@ $(document).ready(function() {
     deps
   ); 
 });
-
-
 </script>
-{% include footer.html %}
-</body>
 
-</html>
+
+
+ 
+
+<div class="tbpage">
+      {% include navbar.html %}
+<h4>{{ page.title }}</h4>
+<h4>Work : {{ page.work }}</h4>
+<h4>Author : {{ page.author }}</h4>
+<h4>Editor : {{ page.editor }}</h4>
+<h4>Locus : {{ page.locus  }}</h4>
+{{ content }}
+
+
+<div class="__artsa">
+  <div id="treebank_container">
+  </div>
+</div>
+
+</div>
+
+
+
+

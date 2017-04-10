@@ -20,8 +20,8 @@ destination: docs
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
-  - jekyll-theme-leap-day
-theme: "jekyll-theme-leap-day"
+  - jekyll-theme-slate
+theme: "jekyll-theme-slate"
 gems: [ jekyll-watch, jekyll-assets]
 
 exclude:
