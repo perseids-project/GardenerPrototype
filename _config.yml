@@ -20,8 +20,8 @@ destination: docs
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
-  - jekyll-theme-slate
-theme: "jekyll-theme-slate"
+  - jekyll-theme-tactile
+theme: "jekyll-theme-tactile"
 gems: [ jekyll-watch, jekyll-assets]
 
 exclude:
