@@ -2,7 +2,7 @@
 title: Gardner Self Publication Platform
 email: Perseidsadmin@gmail.com
 description: Self-publication platform for Treebanks
-baseurl: "/GardnerPrototype/"
+baseurl: "/GardnerPrototype"
 url: "https://tdbuck.github.io/GardnerPrototype" 
 twitter_username: PerseidsProject
 github_username:  TDBuck
@@ -13,15 +13,15 @@ collections:
   tbpages:
     output: true
     permalink: :title.html
+
 show_downloads: true
 markdown: kramdown
-
 destination: docs
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
-  - jekyll-theme-tactile
-theme: "jekyll-theme-tactile"
+  - jekyll-theme-slate
+theme: "jekyll-theme-slate"
 gems: [ jekyll-watch, jekyll-assets]
 
 exclude:
