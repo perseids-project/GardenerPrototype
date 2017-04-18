@@ -9,10 +9,7 @@ github_username:  TDBuck
 syntax-highlighting: 
   enabled : true
   highlighter: rouge
-collections:
-  tbpages:
-    output: true
-    permalink: :title.html
+
 
 show_downloads: true
 markdown: kramdown
@@ -27,6 +24,8 @@ gems: [ jekyll-watch, jekyll-assets]
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# below are the changes you will need to make to the config file to make the widget and collections work 
 assets:
   assets:
     - "*.json"
@@ -40,3 +39,7 @@ assets:
     - "*.woff"
   sources:
     - _assets/arethusa
+collections:
+  tbpages:
+    output: true
+    permalink: :title.html
