@@ -1,6 +1,12 @@
 Gardner Treebanking Self-publicaiton platform
 
-Tim Buckingham built this as part of the second phase of the Perseids Project. 
-The purpose of Gardner was to make something that was simple to use, but powerful enough that it could manage displaying treebanks on its own.
-Hopefully, anyone, from the large researcher, to the high school class that wants to be proud of a semester's worth of work, can use  gardner, with no knowledge of web design.
-With this, you should be able to host and display your own collection of treebanks. 
+To publish your own treebank collection, follow the below instructions. 
+
+Set up Jekyll on your machine. 
+Requires Ruby and Rubygems
+Fork the Gardner repo on github
+Take the contents of the Gardner theme and copy them into your Blog’s directory
+Load your treebanks into the xml directory
+Structure the directory correctly, and name your files correctly
+Create the tb.html files for each treebank
+Use Jekyll to build the site and push to github
