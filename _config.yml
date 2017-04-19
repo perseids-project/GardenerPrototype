@@ -1,30 +1,7 @@
 
-title: Gardner Self Publication Platform
-email: Perseidsadmin@gmail.com
-description: Self-publication platform for Treebanks
-baseurl: "/GardnerPrototype"
-url: "https://tdbuck.github.io/GardnerPrototype" 
-twitter_username: PerseidsProject
-github_username:  TDBuck
-syntax-highlighting: 
-  enabled : true
-  highlighter: rouge
-show_downloads: true
-markdown: kramdown
-destination: docs
-gems: 
-  - jekyll-feed
-  - jekyll-coffeescript
-  - jekyll-theme-slate
-theme: "jekyll-theme-slate"
-gems: [ jekyll-watch, jekyll-assets]
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-
-
+# below are the changes you will need to make to the config file to make the widget and collections work 
+#this is not a fully functional config file on its own
 collections:
   tbpages:
     output: true
