@@ -1,7 +1,7 @@
 
 
 # below are the changes you will need to make to the config file to make the widget and collections work 
-#this is not a fully functional config file on its own
+# this is not a fully functional config file on its own
 collections:
   tbpages:
     output: true
