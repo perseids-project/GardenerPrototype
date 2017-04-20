@@ -9,15 +9,13 @@ github_username:  TDBuck
 syntax-highlighting: 
   enabled : true
   highlighter: rouge
-
-
 show_downloads: true
 markdown: kramdown
 destination: docs
 gems: 
   - jekyll-feed
   - jekyll-coffeescript
-  - jekyll-theme-slate
+
 theme: "jekyll-theme-slate"
 gems: [ jekyll-watch, jekyll-assets]
 
@@ -26,6 +24,7 @@ exclude:
   - Gemfile.lock
 
 # below are the changes you will need to make to the config file to make the widget and collections work 
+
 assets:
   assets:
     - "*.json"

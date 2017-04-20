@@ -1,6 +1,6 @@
       <nav>
         <ul class="site-nav">
-          <li class="tag-h1"><a href="{{ site.baseurl }}">Home</a></li>
+          <li class="tag-h1"><a href="{{ site.baseurl | append:'/' }}">Home</a></li>
           {% for page in site.pages %}
           {% if page.title %}
           {% if page.layout != "home" %}
