@@ -20,48 +20,48 @@
     <uri>http://data.perseus.org/sosol/users/Perseids%20Publications</uri>
   </annotator>
   <sentence id='1' subdoc='1-2' document_id='urn:cts:greekLit:tlg0085.tlg003.perseus-grc2'>
-    <word id='1' form='Χθονὸς' lemma='χθών' postag='n-s---fg-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:1' head='6'/>
-    <word id='2' form='μὲν' lemma='μέν' postag='g--------' relation='AuxY' cite='urn:cts:greekLit:tlg0085.tlg003:1' head='5'/>
-    <word id='3' form='ἐς' lemma='εἰς' postag='r--------' relation='AuxP' cite='urn:cts:greekLit:tlg0085.tlg003:1' head='11'/>
-    <word id='4' form='τηλουρὸν' lemma='τηλουρός' postag='a-s---na-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:1' head='6'/>
-    <word id='5' form='ἥκομεν' lemma='ἥκω' postag='v1ppia---' relation='PRED' cite='urn:cts:greekLit:tlg0085.tlg003:1' head='0'/>
-    <word id='6' form='πέδον' lemma='πέδον' postag='n-s---na-' relation='OBJ_AP' cite='urn:cts:greekLit:tlg0085.tlg003:1' head='3'/>
-    <word id='7' form=',' lemma=',' postag='u--------' relation='AuxX' cite='' head='11'/>
-    <word id='8' form='Σκύθην' lemma='σκύθης' postag='n-s---ma-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:2' head='10'/>
-    <word id='9' form='ἐς' lemma='εἰς' postag='r--------' relation='AuxP' cite='urn:cts:greekLit:tlg0085.tlg003:2' head='11'/>
-    <word id='10' form='οἷμον' lemma='οἷμος' postag='n-s---ma-' relation='OBJ_AP' cite='urn:cts:greekLit:tlg0085.tlg003:2' head='9'/>
-    <word id='11' form=',' lemma=',' postag='u--------' relation='APOS' cite='' head='5'/>
-    <word id='12' form='ἄβατον' lemma='ἄβατος' postag='a-s---fa-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:2' head='14'/>
-    <word id='13' form='εἰς' lemma='εἰς' postag='r--------' relation='AuxP' cite='urn:cts:greekLit:tlg0085.tlg003:2' head='11'/>
-    <word id='14' form='ἐρημίαν' lemma='ἐρημία' postag='n-s---fa-' relation='OBJ_AP' cite='urn:cts:greekLit:tlg0085.tlg003:2' head='13'/>
-    <word id='15' form='.' lemma='.' postag='u--------' relation='AuxK' cite='' head='0'/>
+    <word id='1' form='Χθονὸς' lemma='χθών' postag='n-s---fg-' relation='ATR' head='6'/>
+    <word id='2' form='μὲν' lemma='μέν' postag='g--------' relation='AuxY'  head='5'/>
+    <word id='3' form='ἐς' lemma='εἰς' postag='r--------' relation='AuxP'  head='11'/>
+    <word id='4' form='τηλουρὸν' lemma='τηλουρός' postag='a-s---na-' relation='ATR'  head='6'/>
+    <word id='5' form='ἥκομεν' lemma='ἥκω' postag='v1ppia---' relation='PRED' head='0'/>
+    <word id='6' form='πέδον' lemma='πέδον' postag='n-s---na-' relation='OBJ_AP'  head='3'/>
+    <word id='7' form=',' lemma=',' postag='u--------' relation='AuxX'  head='11'/>
+    <word id='8' form='Σκύθην' lemma='σκύθης' postag='n-s---ma-' relation='ATR'  head='10'/>
+    <word id='9' form='ἐς' lemma='εἰς' postag='r--------' relation='AuxP'  head='11'/>
+    <word id='10' form='οἷμον' lemma='οἷμος' postag='n-s---ma-' relation='OBJ_AP'  head='9'/>
+    <word id='11' form=',' lemma=',' postag='u--------' relation='APOS' head='5'/>
+    <word id='12' form='ἄβατον' lemma='ἄβατος' postag='a-s---fa-' relation='ATR'  head='14'/>
+    <word id='13' form='εἰς' lemma='εἰς' postag='r--------' relation='AuxP'  head='11'/>
+    <word id='14' form='ἐρημίαν' lemma='ἐρημία' postag='n-s---fa-' relation='OBJ_AP'  head='13'/>
+    <word id='15' form='.' lemma='.' postag='u--------' relation='AuxK'  head='0'/>
   </sentence>
   <sentence id='2' subdoc='3-6' document_id='urn:cts:greekLit:tlg0085.tlg003.perseus-grc2'>
-    <word id='1' form='Ἥφαιστε' lemma='Ἥφαιστος' postag='n-s---mv-' relation='ExD' cite='urn:cts:greekLit:tlg0085.tlg003:3' head='5'/>
-    <word id='2' form=',' lemma=',' postag='u--------' relation='AuxX' cite='' head='1'/>
-    <word id='3' form='σοὶ' lemma='σύ' postag='p-s---md-' relation='OBJ' cite='urn:cts:greekLit:tlg0085.tlg003:3' head='6'/>
-    <word id='4' form='δὲ' lemma='δέ' postag='g--------' relation='AuxY' cite='urn:cts:greekLit:tlg0085.tlg003:3' head='5'/>
-    <word id='5' form='χρὴ' lemma='χρή' postag='v3spia---' relation='PRED' cite='urn:cts:greekLit:tlg0085.tlg003:3' head='0'/>
-    <word id='6' form='μέλειν' lemma='μέλω' postag='v--pna---' relation='SBJ' cite='urn:cts:greekLit:tlg0085.tlg003:3' head='5'/>
-    <word id='7' form='ἐπιστολὰς' lemma='ἐπιστολή' postag='n-p---fa-' relation='SBJ' cite='urn:cts:greekLit:tlg0085.tlg003:3' head='6'/>
-    <word id='8' form='ἅς' lemma='ὅς' postag='p-p---fa-' relation='OBJ' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='11'/>
-    <word id='9' form='σοι' lemma='σύ' postag='p-s---md-' relation='OBJ' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='11'/>
-    <word id='10' form='πατὴρ' lemma='πατήρ' postag='n-s---mn-' relation='SBJ' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='11'/>
-    <word id='11' form='ἐφεῖτο' lemma='ἐφίημι' postag='v3saim---' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='7'/>
-    <word id='12' form=',' lemma=',' postag='u--------' relation='AuxX' cite='' head='19'/>
-    <word id='13' form='τόνδε' lemma='ὅδε' postag='p-s---ma-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='18'/>
-    <word id='14' form='πρὸς' lemma='πρός' postag='r--------' relation='AuxP' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='19'/>
-    <word id='15' form='πέτραις' lemma='πέτρα' postag='n-p---fd-' relation='ADV' cite='urn:cts:greekLit:tlg0085.tlg003:4' head='14'/>
-    <word id='16' form='ὑψηλοκρήμνοις' lemma='ὑψηλόκρημνος' postag='a-p---fd-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:5' head='15'/>
-    <word id='17' form='τὸν' lemma='ὁ' postag='l-s---ma-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:5' head='18'/>
-    <word id='18' form='λεωργὸν' lemma='λεωργός' postag='a-s---fa-' relation='OBJ' cite='urn:cts:greekLit:tlg0085.tlg003:5' head='19'/>
-    <word id='19' form='ὀχμάσαι' lemma='ὀχμάζω' postag='v--ana---' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:5' head='7'/>
-    <word id='20' form='ἀδαμαντίνων' lemma='ἀδαμάντινος' postag='a-p---mg-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:6' head='21'/>
-    <word id='21' form='δεσμῶν' lemma='δεσμός' postag='n-p---mg-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:6' head='24'/>
-    <word id='22' form='ἐν' lemma='ἐν' postag='r--------' relation='AuxP' cite='urn:cts:greekLit:tlg0085.tlg003:6' head='19'/>
-    <word id='23' form='ἀρρήκτοις' lemma='ἄρρηκτος' postag='a-p---fd-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:6' head='24'/>
-    <word id='24' form='πέδαις' lemma='πέδη' postag='n-p---fd-' relation='OBJ' cite='urn:cts:greekLit:tlg0085.tlg003:6' head='22'/>
-    <word id='25' form='.' lemma='.' postag='u--------' relation='AuxK' cite='' head='0'/>
+    <word id='1' form='Ἥφαιστε' lemma='Ἥφαιστος' postag='n-s---mv-' relation='ExD'  head='5'/>
+    <word id='2' form=',' lemma=',' postag='u--------' relation='AuxX'  head='1'/>
+    <word id='3' form='σοὶ' lemma='σύ' postag='p-s---md-' relation='OBJ'  head='6'/>
+    <word id='4' form='δὲ' lemma='δέ' postag='g--------' relation='AuxY'  head='5'/>
+    <word id='5' form='χρὴ' lemma='χρή' postag='v3spia---' relation='PRED'   head='0'/>
+    <word id='6' form='μέλειν' lemma='μέλω' postag='v--pna---' relation='SBJ'   head='5'/>
+    <word id='7' form='ἐπιστολὰς' lemma='ἐπιστολή' postag='n-p---fa-' relation='SBJ'   head='6'/>
+    <word id='8' form='ἅς' lemma='ὅς' postag='p-p---fa-' relation='OBJ'   head='11'/>
+    <word id='9' form='σοι' lemma='σύ' postag='p-s---md-' relation='OBJ'   head='11'/>
+    <word id='10' form='πατὴρ' lemma='πατήρ' postag='n-s---mn-' relation='SBJ'   head='11'/>
+    <word id='11' form='ἐφεῖτο' lemma='ἐφίημι' postag='v3saim---' relation='ATR'   head='7'/>
+    <word id='12' form=',' lemma=',' postag='u--------' relation='AuxX'   head='19'/>
+    <word id='13' form='τόνδε' lemma='ὅδε' postag='p-s---ma-' relation='ATR'   head='18'/>
+    <word id='14' form='πρὸς' lemma='πρός' postag='r--------' relation='AuxP'   head='19'/>
+    <word id='15' form='πέτραις' lemma='πέτρα' postag='n-p---fd-' relation='ADV'   head='14'/>
+    <word id='16' form='ὑψηλοκρήμνοις' lemma='ὑψηλόκρημνος' postag='a-p---fd-' relation='ATR'  head='15'/>
+    <word id='17' form='τὸν' lemma='ὁ' postag='l-s---ma-' relation='ATR'   head='18'/>
+    <word id='18' form='λεωργὸν' lemma='λεωργός' postag='a-s---fa-' relation='OBJ'   head='19'/>
+    <word id='19' form='ὀχμάσαι' lemma='ὀχμάζω' postag='v--ana---' relation='ATR'   head='7'/>
+    <word id='20' form='ἀδαμαντίνων' lemma='ἀδαμάντινος' postag='a-p---mg-' relation='ATR'   head='21'/>
+    <word id='21' form='δεσμῶν' lemma='δεσμός' postag='n-p---mg-' relation='ATR'   head='24'/>
+    <word id='22' form='ἐν' lemma='ἐν' postag='r--------' relation='AuxP'   head='19'/>
+    <word id='23' form='ἀρρήκτοις' lemma='ἄρρηκτος' postag='a-p---fd-' relation='ATR'   head='24'/>
+    <word id='24' form='πέδαις' lemma='πέδη' postag='n-p---fd-' relation='OBJ'   head='22'/>
+    <word id='25' form='.' lemma='.' postag='u--------' relation='AuxK'   head='0'/>
   </sentence>
  <!-- <sentence id='3' subdoc='7-8' document_id='urn:cts:greekLit:tlg0085.tlg003.perseus-grc2'>
     <word id='1' form='τὸ' lemma='ὁ' postag='l-s---na-' relation='ATR' cite='urn:cts:greekLit:tlg0085.tlg003:7' head='4'/>
