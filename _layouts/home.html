@@ -7,13 +7,10 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading"></h1>
-
- <p>
-  	The purpose of Gardener was to make something that was simple to use, but powerful enough that it could manage displaying treebanks on its own.
-Hopefully, anyone, from the large researcher, to the high school class that wants to be proud of a semester's worth of work, can use  Gardener, with no knowledge of web design.
-With this, you should be able to host and display your own collection of treebanks. Tim Buckingham built this as part of the second phase of the Perseids Project. 
-  </p> 
-
+<!-- this is the small blurp at the top of your site. Edit this so that it describes your own blog-->
+{{ content }}
+<!-- end of description section-->
+<!-- this creates the table which displays your treebank collection-->
 <div class="tbpages">
 <h1 class="page-heading">Treebank Collection</h1> 
 <table class="tbpage-list">
@@ -37,7 +34,7 @@ With this, you should be able to host and display your own collection of treeban
     </tbody>
   </table>
 </div>
-
+<!-- this is a basic blogroll, in the event you want to have more conventional blog posts on your site-->
   <div class="blogroll">
 
   <h1 class="page-heading">The latest from the Blog</h1>  
@@ -54,6 +51,7 @@ With this, you should be able to host and display your own collection of treeban
     {% endfor %}
   </ul>
   </div>
+  <!-- this is additional information about the Arethusa widget-->
  <div>
  <p>The Arethusa widget is still in development, for now use the following hotkeys to naviage the treebank collection</p>
 <ul>
@@ -66,7 +64,7 @@ With this, you should be able to host and display your own collection of treeban
 <li>a focusSelection</li>
 <li>d perfectWidth</li>
 </ul>
-
+<!-- this is additional information about which themes are compatible with the Arethusa Widget-->
 Jekyll via Github pages only supports a few gem based themes. Or widget is only compatible with some of these. 
 
 <ul>
