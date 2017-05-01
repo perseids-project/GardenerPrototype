@@ -49,10 +49,11 @@ To publish your own treebank collection, follow the below instructions.
 </ol>
 
 
-Setting Up your treebank publications
+<p>Setting Up your treebank publications
 
 The benefit of using this publication platform, is that you do not even need to understand basic html in order to create a website for your trees. In order to generate each treebank display page, you will need to create an html file for each treebank file. That file can be entirely empty and only needs to have a yaml header which contains the important data that the system needs in order to generate the treebank display. 
-Here is a sample yaml header: 
+Here is a sample yaml header:</p> 
+<p>
 ---
 layout: tbpage
 title:  "Plato Apology"
@@ -64,6 +65,8 @@ locus: 20b-22b.2
 folder: 1911
 tbfile: grctb.1911.1.tb.xml
 ---
+</p>
+<p>
 Layout: leave this value as tbpage, this determines which page template jekyll will use to build the site. For these treebank display pages, you will always want tbpage
 Title: this can be whatever you want to call the treebank, it will appear at the top of the page
 Work: the title of the specific text you are working with
@@ -79,4 +82,4 @@ Any additional content that you want to add to the tbpage, you can add below the
 These html files can be written up in any simple text editor. 
 
 The default directory structure divides the treebanks by language, and then into categories based on the name of the document. 
-Currently we only support this kind of structure, and only three specific language categories, grctb for Ancient Greek treebanks, lattb for Latin treebanks, and misctb for all other language groups. 
+Currently we only support this kind of structure, and only three specific language categories, grctb for Ancient Greek treebanks, lattb for Latin treebanks, and misctb for all other language groups. </p>
