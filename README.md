@@ -1,4 +1,4 @@
-<h1>Gardener Treebanking Self-publicaiton platform</h1>
+<h1>Gardener Treebanking Self-publicaiton Platform</h1>
 
 
 So you have a bunch of treebanks, either made yourself, or done with a bunch of students. But what do you do with all these trees? Where do you put them? And how do my students point to them to show off the work they have done? 
@@ -49,7 +49,7 @@ To publish your own treebank collection, follow the below instructions.
 </ol>
 
 
-<h1>Setting Up your treebank publications</h1>
+<h1>Setting Up Your Treebank Publications</h1>
 
 <p>The benefit of using this publication platform, is that you do not even need to understand basic html in order to create a website for your trees. In order to generate each treebank display page, you will need to create an html file for each treebank file. That file can be entirely empty and only needs to have a yaml header which contains the important data that the system needs in order to generate the treebank display. 
 Here is a sample yaml header:</p> 
@@ -67,20 +67,22 @@ tbfile: grctb.1911.1.tb.xml<br>
 ---</p>
 
 <p>
-Layout: leave this value as tbpage, this determines which page template jekyll will use to build the site. For these treebank display pages, you will always want tbpage
-Title: this can be whatever you want to call the treebank, it will appear at the top of the page
-Work: the title of the specific text you are working with
-Author: the original author of the Text you are working with
-Editor: the person who annotated the treebank
-Tblang: this will determine the main language directory the system will look in for the treebank file. The values “Greek” and “Latin” are case sensitive. 
-Locus: the sections of the original text that your treebank contains
-Folder: the name of the folder within the language directory that contains your treebank file
-Tbfile: the name of the treebank file you want to associate with this treebank page. The above is the default naming convention for treebank files when they are downloaded from Perseids. 
-
-These html files are named after their original treebank file, although with a different file extension. The above yaml header is named “grctb.1911.1.tb.html” 
-Any additional content that you want to add to the tbpage, you can add below the yaml header. Even unformated text will appear in the final version of the page above the treebank display. 
-These html files can be written up in any simple text editor. 
-
+Layout: leave this value as tbpage, this determines which page template jekyll will use to build the site. For these treebank display pages, you will always want tbpage <br>
+Title: this can be whatever you want to call the treebank, it will appear at the top of the page<br>
+Work: the title of the specific text you are working with<br>
+Author: the original author of the Text you are working with<br>
+Editor: the person who annotated the treebank<br>
+Tblang: this will determine the main language directory the system will look in for the treebank file. The values “Greek” and “Latin” are case sensitive. <br>
+Locus: the sections of the original text that your treebank contains<br>
+Folder: the name of the folder within the language directory that contains your treebank file <br>
+Tbfile: the name of the treebank file you want to associate with this treebank page. The above is the default naming convention for treebank files when they are downloaded from Perseids. <br>
+</p>
+<p>
+These html files are named after their original treebank file, although with a different file extension. The above yaml header is named “grctb.1911.1.tb.html” <br>
+Any additional content that you want to add to the tbpage, you can add below the yaml header. Even unformated text will appear in the final version of the page above the treebank display. <br>
+These html files can be written up in any simple text editor. <br>
+</p>
+<p>
 The default directory structure divides the treebanks by language, and then into categories based on the name of the document. 
 Currently we only support this kind of structure, and only three specific language categories, grctb for Ancient Greek treebanks, lattb for Latin treebanks, and misctb for all other language groups. 
 </p>
