@@ -1,12 +1,10 @@
 <h1>Gardener Treebanking Self-publicaiton Platform</h1>
 
 
-So you have a bunch of treebanks, either made yourself, or done with a bunch of students. But what do you do with all these trees? Where do you put them? And how do my students point to them to show off the work they have done? 
 
+This guide should help you self-publish a collection of treebanks, and host them in a simple Jekyll-based blog via github pages. 
 
-Ideally this guide should help you self-publish a collection of treebanks (hosted on github). 
-
-This guide is written so that someone with very little knowledge should be able to host a small site to display their treebanks. All we require is that you have a basic knowledge of how to use github, and control over your own treebanks.
+This guide is written so that anyone should be able to host a small site to display their treebanks. All we require is that you have a basic knowledge of how to use github, and control over your own treebanks.
 
 To publish your own treebank collection, follow the below instructions. 
 
