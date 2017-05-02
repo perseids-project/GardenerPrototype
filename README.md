@@ -1,4 +1,4 @@
-Gardner Treebanking Self-publicaiton platform
+<h1>Gardener Treebanking Self-publicaiton platform</h1>
 
 
 So you have a bunch of treebanks, either made yourself, or done with a bunch of students. But what do you do with all these trees? Where do you put them? And how do my students point to them to show off the work they have done? 
@@ -49,9 +49,9 @@ To publish your own treebank collection, follow the below instructions.
 </ol>
 
 
-<p>Setting Up your treebank publications
+<h1>Setting Up your treebank publications</h1>
 
-The benefit of using this publication platform, is that you do not even need to understand basic html in order to create a website for your trees. In order to generate each treebank display page, you will need to create an html file for each treebank file. That file can be entirely empty and only needs to have a yaml header which contains the important data that the system needs in order to generate the treebank display. 
+<p>The benefit of using this publication platform, is that you do not even need to understand basic html in order to create a website for your trees. In order to generate each treebank display page, you will need to create an html file for each treebank file. That file can be entirely empty and only needs to have a yaml header which contains the important data that the system needs in order to generate the treebank display. 
 Here is a sample yaml header:</p> 
 
 <p style="text-align: left;">---<br>
