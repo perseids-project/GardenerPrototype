@@ -10,10 +10,10 @@ To publish your own treebank collection, follow the below instructions.
 
 
 <ol>
- 	<li>Create a repository on github for your blog
+ 	<li>fork the GardenerTheme repository
 <ol>
  	<li>Create a github account (if you don’t have one already) and familiarize yourself with how <a href="http://rogerdudler.github.io/git-guide/">github works</a></li>
- 	<li>Create a repository for your<a href="http://jmcglone.com/guides/github-pages/"> github-pages</a> blog</li>
+ 	<li>Fork the GardenerTheme, this repository will be the basis of your blog</li>
  	<li>Clone it to your machine</li>
 </ol>
 </li>
@@ -21,15 +21,9 @@ To publish your own treebank collection, follow the below instructions.
 <ol>
  	<li>Requires <a href="https://www.ruby-lang.org/">Ruby</a> and <a href="https://rubygems.org/">Rubygems</a></li>
  	<li>Follow the instruction in the Jekyll documentation to create your own blog</li>
- 	<li>It is important to configure the repo as a Jekyll blog before you start adding files, as jekyll will write over everything in the directory. </li>
-</ol>
-</li>
- 	<li>Download the GardenerTheme branch
-<ol>
- 	<li>Download the zip file from the GardenerTheme Branch</li>
- 	<li> You may, instead of downloading, want to fork the entire repo</li>
- 	<li>Take the contents of the GardenerTheme and copy them into your Blog’s directory</li>
-  <li>Some of the parts of the ThemeBranch are not complete files by themselves, but require you to edit the pregenerated files in the default blog</li>
+	<li> when initiating a new blog with jekyll, you will need to use the command "jekyll new. --force"</li>
+
+  <li>Some of the parts of the ThemeBranch are not complete files by themselves, but require you to edit the pregenerated files in the default blog.</li>
 	<li>add "_site.asset-cache" to the .gitignore file</li>
 	<li> attach the partial config.yml file that is part of the theme, to the default config file</li>
 </ol>
