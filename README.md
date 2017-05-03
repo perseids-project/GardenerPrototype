@@ -24,11 +24,14 @@ To publish your own treebank collection, follow the below instructions.
  	<li>It is important to configure the repo as a Jekyll blog before you start adding files, as jekyll will write over everything in the directory. </li>
 </ol>
 </li>
- 	<li>Fork the Gardener repo on github
+ 	<li>Download the GardenerTheme branch
 <ol>
- 	<li>Clone the forked repo to your machine</li>
- 	<li>Change to the GardnerTheme Branch</li>
+ 	<li>Download the zip file from the GardenerTheme Branch</li>
+ 	<li> You may, instead of downloading, want to fork the entire repo</li>
  	<li>Take the contents of the GardenerTheme and copy them into your Blog’s directory</li>
+  <li>Some of the parts of the ThemeBranch are not complete files by themselves, but require you to edit the pregenerated files in the default blog</li>
+	<li>add "_site.asset-cache" to the .gitignore file</li>
+	<li> attach the partial config.yml file that is part of the theme, to the default config file</li>
 </ol>
 </li>
  	<li>Load your treebanks into the xml directory
