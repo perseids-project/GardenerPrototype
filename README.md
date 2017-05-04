@@ -21,7 +21,7 @@ To publish your own treebank collection, follow the below instructions.
 <ol>
  	<li>Requires <a href="https://www.ruby-lang.org/">Ruby</a> and <a href="https://rubygems.org/">Rubygems</a></li>
  	<li>Follow the <a href="https://jekyllrb.com/docs/quickstart/">instructions</a> in the Jekyll documentation to create your own blog</li>
-	<li> when initiating a new blog with jekyll, you will need to use the command "jekyll new. --force" this will allow you to make your blog in the same directory as your original repository</li>
+	<li> when initiating a new blog with jekyll, you will need to use the command <code>jekyll new . --force</code> this will allow you to make your blog in the same directory as your original repository</li>
 	<li>Initiating a new blog will pregenerate a few files and add them to your repository</li>
   <li>Some of the parts of the GardenerTheme are not complete files by themselves, but require you to edit the pregenerated files in the default blog.</li>
 	<li>add "_site.asset-cache" to the .gitignore file</li>
