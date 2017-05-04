@@ -64,8 +64,8 @@ folder: 1911<br>
 tbfile: grctb.1911.1.tb.xml<br>
 ---</p>
 
-<p>
 
+<ul>
 <li>Layout: leave this value as tbpage, this determines which page template jekyll will use when it builds the site. For these treebank display pages, you will always want to use tbpage.</li>
 <li>Title: this can be whatever you want to call the treebank, it will appear at the top of the page<br>
 <li>Work: the title of the original source of the text for your treebank</li>
@@ -75,7 +75,8 @@ tbfile: grctb.1911.1.tb.xml<br>
 <li>Locus: the section of the original text for your treebank</li>
 <li>Folder: the name of the folder within the language directory that contains your treebank file.</li>
 <li>Tbfile: the name of the treebank file you want to associate with this treebank page. The example is the default naming convention for treebank files when they are downloaded from Perseids.</li>
-</p>
+</ul>
+
 <p>
 These html files are named after their original treebank file, although with a different file extension. The above yaml header is named “grctb.1911.1.tb.html” <br>
 Any additional content that you want to add to the tbpage, you can add below the yaml header. Even unformated text will appear in the final version of the page above the treebank display. <br>
