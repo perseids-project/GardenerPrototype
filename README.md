@@ -2,9 +2,9 @@
 
 
 
-This guide should help you self-publish a collection of treebanks, and host them in a simple Jekyll-based blog via github pages. 
+This guide should help you self-publish a collection of treebanks, and host them in a simple Jekyll-based blog via GitHub Pages. 
 
-This guide is written so that anyone should be able to host a small site to display their treebanks. All we require is that you have a basic knowledge of how to use github, and control over your own treebanks.
+This guide is written so that anyone should be able to host a small site to display their treebanks. All we require is that you have a basic knowledge of how to use GitHub, and control over your own treebanks.
 
 To publish your own treebank collection, follow the below instructions. 
 
@@ -12,18 +12,18 @@ To publish your own treebank collection, follow the below instructions.
 <ol>
  	<li>fork the GardenerTheme repository
 <ol>
- 	<li>Create a github account (if you don’t have one already) and familiarize yourself with how <a href="http://rogerdudler.github.io/git-guide/">github works</a></li>
- 	<li>Fork the GardenerTheme, this repository will be the basis of your blog</li>
- 	<li>Clone it to your machine</li>
+ 	<li>Create a GitHub account (if you don’t have one already) and familiarize yourself with how <a href="https://guides.github.com/activities/hello-world/">GitHub works</a></li>
+ 	<li>Fork the GardenerTheme, this repository will be where you will build your blog</li>
+ 	<li>Clone the repository to your machine, so that you can work with it and test it locally</li>
 </ol>
 </li>
  	<li>Set up <a href="https://jekyllrb.com/docs/quickstart/">Jekyll</a> on your machine. 
 <ol>
  	<li>Requires <a href="https://www.ruby-lang.org/">Ruby</a> and <a href="https://rubygems.org/">Rubygems</a></li>
- 	<li>Follow the instruction in the Jekyll documentation to create your own blog</li>
-	<li> when initiating a new blog with jekyll, you will need to use the command "jekyll new. --force"</li>
-
-  <li>Some of the parts of the ThemeBranch are not complete files by themselves, but require you to edit the pregenerated files in the default blog.</li>
+ 	<li>Follow the <a href="https://jekyllrb.com/docs/quickstart/">instructions</a> in the Jekyll documentation to create your own blog</li>
+	<li> when initiating a new blog with jekyll, you will need to use the command "jekyll new. --force" this will allow you to make your blog in the same directory as your original repository</li>
+	<li>Initiating a new blog will pregenerate a few files and add them to your repository</li>
+  <li>Some of the parts of the GardenerTheme are not complete files by themselves, but require you to edit the pregenerated files in the default blog.</li>
 	<li>add "_site.asset-cache" to the .gitignore file</li>
 	<li> attach the partial config.yml file that is part of the theme, to the default config file</li>
 </ol>
@@ -31,16 +31,19 @@ To publish your own treebank collection, follow the below instructions.
  	<li>Load your treebanks into the xml directory
 <ol>
  	<li>Structure the directory correctly, and name your files correctly (see below instructions)</li>
- 	<li>Create the tb.html files for each treebank, you can do this in a very basic text editor, or in-browser on github (see below instructions)</li>
+ 	<li>Create the tb.html files for each treebank, you can do this in a very basic text editor, or in-browser on GitHub (see below instructions)</li>
  	<li>Edit your main page via the index.html file</li>
 </ol>
 </li>
  	<li>Use Jekyll to build the site
 <ol>
  	<li>You can serve your blog locally to test it out by following<a href="https://jekyllrb.com/docs/usage/"> these instructions</a></li>
- 	<li>Once you are satisfied, you can push to github. </li>
+ 	<li>Once you are satisfied, you can push to GitHub. </li>
 </ol>
 </li>
+<li> Setting up GitHub-pages
+<ol>
+<li>Once you have pushed your site to GitHub, you will need to turn on <a href="https://guides.github.com/features/pages/">GitHub Pages</a></li>
 </ol>
 
 
