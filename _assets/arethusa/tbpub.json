@@ -3,7 +3,7 @@
     "debug": false,
     "showKeys": false,
     "chunkParam": "chunk",
-    "auxConfPath": "http:\/\/services.perseids.org\/arethusa-configs",
+    "auxConfPath": "https:\/\/services.perseids.org\/arethusa-configs",
     "retrievers": {
       "TreebankRetriever": {
         "resource": "GardenerPrototype",
