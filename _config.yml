@@ -16,7 +16,7 @@ gems:
   - jekyll-feed
   - jekyll-coffeescript
 
-theme: "jekyll-theme-slate"
+theme: jekyll-theme-slate
 gems: [ jekyll-watch, jekyll-assets]
 
 exclude:
