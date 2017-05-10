@@ -6,7 +6,7 @@ This guide should help you self-publish a collection of treebanks, and host them
 
 This guide is written so that anyone should be able to host a small site to display their treebanks. All we require is that you have a basic knowledge of how to use GitHub, and control over your own treebanks.
 
-To publish your own treebank collection, follow the below instructions. 
+To publish your own treebank collection, follow the below instructions. Detailed instructions for how to create a site with Jekyll can be found <a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">here</a> 
 
 
 <ol>
