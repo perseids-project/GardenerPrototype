@@ -19,7 +19,7 @@ gems:
 theme: jekyll-theme-slate
 gems: [ jekyll-watch, jekyll-assets]
 
-exclude:
+exclude:[]
   - Gemfile
   - Gemfile.lock
 
