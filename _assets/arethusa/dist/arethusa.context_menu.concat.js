@@ -65,7 +65,9 @@ angular.module('arethusa.contextMenu').factory('menuElement', function () {
 
         function repositionContextMenu(menu, parent) {
           // reposition the context menu relative to the parent element
+          console.log(parent);
           var parPos = parent.offset();
+          console.log(parPos);
           var left;
           var top;
           if (scope.menuPosition === 'bottom') {

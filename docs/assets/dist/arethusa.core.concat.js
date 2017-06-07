@@ -443,7 +443,7 @@ angular.module('arethusa.core').directive('arethusaNavbar', [
 
         function setLogo() {
           var icon = scope.windowWidth > 1300 ? '' : 'icon-';
-          scope.logo = "images/arethusa-" + icon + "small.png";
+          scope.logo = conf.logo;
         }
 
         function isVisible(threshold, defaultVal) {
@@ -2461,7 +2461,7 @@ angular.module('arethusa.core').directive('toBottom', [
             if (svg[0]) {
               var elBottom = element[0].getBoundingClientRect().bottom;
               var svgTop = svg.offset().top;
-              svg.height(elBottom - svgTop);
+              //svg.height(elBottom - svgTop);
             }
           });
         }
@@ -5374,8 +5374,7 @@ angular.module('arethusa.core').service('configurator', [
         }
 
         function auxConfPath() {
-          return self.configuration.main.auxConfPath ||
-              'http://services.perseids.org/arethusa-configs';
+          return self.configuration.main.auxConfPath;
         }
       }
       function notifier() {
@@ -6294,11 +6293,6 @@ angular.module('arethusa.core').service('globalSettings', [
     $rootScope.$on('confLoaded', loadLayouts);
 
     this.broadcastLayoutChange = function() {
-      if (self.layout.grid) {
-        $timeout(function() {
-          notifier.warning('The grid layout is an experimental feature and WILL contain bugs!', 'WARNING');
-        }, 1200);
-      }
       // Postpone this a bit, so that it doesn't show up as first message - also
       // fixes a little bug with the notification window disappearing too fast on
       // a layout change (as the main html is reloaded with it, the container that
