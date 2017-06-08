@@ -2001,11 +2001,11 @@ angular.module('arethusa').run(['$templateCache', function($templateCache) {
     "\n" +
     "    <div id=\"canvas\" class=\"row panel full-height\" full-height>\n" +
     "      <div id=\"main-body\" class=\"widget\" to-bottom>\n" +
+    "        <div arethusa-context-menus tokens=\"state.tokens\" plugins=\"plugins.withMenu\"/>\n" +
     "        <div ng-repeat=\"pl in plugins.main\" plugin name=\"{{ pl.name }}\"/>\n" +
     "        <div keys-to-screen/>\n" +
     "      </div>\n" +
     "    </div>\n" +
-    "    <div arethusa-context-menus tokens=\"state.tokens\" plugins=\"plugins.withMenu\"/>\n" +
     "  </div>\n" +
     "  <div notifications/>\n" +
     "  <arethusa-navbar/>\n" +

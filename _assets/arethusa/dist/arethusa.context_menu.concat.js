@@ -79,8 +79,10 @@ angular.module('arethusa.contextMenu').factory('menuElement', function () {
             top = parPos.top;
             left = parPos.left + parent.outerWidth();
           }
-          menu.css('left', left);
-          menu.css('top', top);
+          //menu.css('left', left);
+          //menu.css('top', top);
+          menu.css('right', '40px')
+          menu.css('top', '150px')
         }
 
         function open(event, menu, parent) {

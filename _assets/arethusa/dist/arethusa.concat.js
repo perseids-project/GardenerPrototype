@@ -3087,6 +3087,8 @@ angular.module('arethusa.core').directive('toBottom', [
             if (svg[0]) {
               var elBottom = element[0].getBoundingClientRect().bottom;
               var svgTop = svg.offset().top;
+              // explicitly setting the svg height causes truncation of the
+              // tree in the widget display
               //svg.height(elBottom - svgTop);
             }
           });
@@ -11265,8 +11267,10 @@ angular.module('arethusa.contextMenu').factory('menuElement', function () {
             top = parPos.top;
             left = parPos.left + parent.outerWidth();
           }
-          menu.css('left', left);
-          menu.css('top', top);
+          //menu.css('left', left);
+          //menu.css('top', top);
+          menu.css('right', '40px')
+          menu.css('top', '150px')
         }
 
         function open(event, menu, parent) {
@@ -13896,11 +13900,11 @@ angular.module('arethusa').run(['$templateCache', function($templateCache) {
     "\n" +
     "    <div id=\"canvas\" class=\"row panel full-height\" full-height>\n" +
     "      <div id=\"main-body\" class=\"widget\" to-bottom>\n" +
+    "        <div arethusa-context-menus tokens=\"state.tokens\" plugins=\"plugins.withMenu\"/>\n" +
     "        <div ng-repeat=\"pl in plugins.main\" plugin name=\"{{ pl.name }}\"/>\n" +
     "        <div keys-to-screen/>\n" +
     "      </div>\n" +
     "    </div>\n" +
-    "    <div arethusa-context-menus tokens=\"state.tokens\" plugins=\"plugins.withMenu\"/>\n" +
     "  </div>\n" +
     "  <div notifications/>\n" +
     "  <arethusa-navbar/>\n" +
