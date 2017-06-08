@@ -6,7 +6,7 @@
     "auxConfPath": "https:\/\/services.perseids.org\/arethusa-configs",
     "retrievers": {
       "TreebankRetriever": {
-        "resource": "GardenerPrototype",
+        "resource": "Gardener",
         "docIdentifier": "treebank",
         "preselector": "w"
       }
@@ -38,7 +38,7 @@
     "logo": "images\/arethusa-icon-small.png"
   },
   "resources": {
-    "GardenerPrototype": {
+    "Gardener": {
       "route": "xml\/:doc",
       "params": [
         "doc"
@@ -71,6 +71,7 @@
       "template": "js\/templates\/dep_tree.html"
     },
     "morph": {
+      "noRetrieval": "online",
       "contextMenu" : true,
       "contextMenuTemplate": "js/arethusa.morph/templates/context_menu.html"
     },
